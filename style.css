@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    border: 1px solid black;
+}
+main img{
+    height: 500px;
+    width: 500px;
+}
+main div{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#age{
+    color: orangered;
+    font-weight: 600;
+}
+main p{
+    color: lightgray;
+    font-size: 30px;
+}
